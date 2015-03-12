@@ -1,4 +1,4 @@
-#import "NSString+HYPDateString.h"
+#import "NSString+HYPDate.h"
 
 #import "NSDate+HYPISO8601.h"
 
@@ -9,13 +9,13 @@ static NSString * const HYPDateRangeFormat = @"HH:mm";
 
 + (NSString *)hyp_currentDateAsEventDateString
 {
-    return [self hyp_eventDateStringFromDate:[NSDate date]];
+    return [self hyp_dateStringFromDate:[NSDate date]];
 }
 
 + (NSString *)hyp_dateStringFromDate:(NSDate *)date
 {
     NSDateFormatter *dateFormat = [NSDateFormatter new];
-    [dateFormat setDateFormat:HYPEventDateFormat];
+    [dateFormat setDateFormat:HYPDateFormat];
 
     return [dateFormat stringFromDate:date];
 }
@@ -24,13 +24,13 @@ static NSString * const HYPDateRangeFormat = @"HH:mm";
 {
     NSDate *date = [NSDate hyp_dateFromISO8601String:dateString];
 
-    return [self hyp_eventDateStringFromDate:date];
+    return [self hyp_dateStringFromDate:date];
 }
 
 + (NSString *)hyp_dateRangeStringFromStartDate:(NSDate *)startDate endDate:(NSDate *)endDate
 {
     NSDateFormatter *dateFormat = [NSDateFormatter new];
-    [dateFormat setDateFormat:HYPEventDateRangeFormat];
+    [dateFormat setDateFormat:HYPDateRangeFormat];
 
     return [NSString stringWithFormat:@"%@ - %@", [dateFormat stringFromDate:startDate],
             [dateFormat stringFromDate:endDate]];
@@ -41,7 +41,7 @@ static NSString * const HYPDateRangeFormat = @"HH:mm";
     NSDate *startDate = [NSDate hyp_dateFromISO8601String:startDateString];
     NSDate *endDate = [NSDate hyp_dateFromISO8601String:endDateString];
 
-    return [self hyp_eventDateRangeStringFromStartDate:startDate endDate:endDate];
+    return [self hyp_dateRangeStringFromStartDate:startDate endDate:endDate];
 }
 
 @end
