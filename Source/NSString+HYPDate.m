@@ -7,7 +7,7 @@ static NSString * const HYPDateRangeFormat = @"HH:mm";
 
 @implementation NSString (HYPDate)
 
-+ (NSString *)hyp_currentDateAsEventDateString
++ (NSString *)hyp_currentDateAsDateString
 {
     return [self hyp_dateStringFromDate:[NSDate date]];
 }
