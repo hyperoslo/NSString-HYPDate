@@ -8,6 +8,8 @@
 ## Usage
 
 ```objc
+#import "NSDate+HYPISO8601.h"
+
 + (NSString *)hyp_currentDateAsDateString;
 + (NSString *)hyp_dateStringFromDate:(NSDate *)date;
 + (NSString *)hyp_dateStringFromDateString:(NSString *)dateString;
