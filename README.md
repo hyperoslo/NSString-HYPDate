@@ -7,7 +7,15 @@
 
 ## Usage
 
-`<API>`
+```objc
+#import "NSString+HYPDate.h"
+
++ (NSString *)hyp_currentDateAsDateString;
++ (NSString *)hyp_dateStringFromDate:(NSDate *)date;
++ (NSString *)hyp_dateStringFromDateString:(NSString *)dateString;
++ (NSString *)hyp_dateRangeStringFromStartDate:(NSDate *)startDate endDate:(NSDate *)endDate;
++ (NSString *)hyp_dateRangeStringFromStartDateString:(NSString *)startDateString endDateString:(NSString *)endDateString;
+```
 
 ## Installation
 
