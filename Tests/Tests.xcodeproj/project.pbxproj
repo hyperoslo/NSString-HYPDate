@@ -13,7 +13,6 @@
 		14C4183E1A019A1500636FD6 /* NSString-HYPDate.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 14C4183A1A019A1500636FD6 /* NSString-HYPDate.podspec */; };
 		20C830052FF816A64BF06975 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27E8D83D9E643898269EF134 /* libPods.a */; };
 		447DF91F1AB1C95000EFD1D5 /* NSString+HYPDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 447DF91E1AB1C95000EFD1D5 /* NSString+HYPDate.m */; };
-		44950E9A1AB1C9F60034E313 /* NSDate+HYPISO8601.m in Sources */ = {isa = PBXBuildFile; fileRef = 44950E991AB1C9F60034E313 /* NSDate+HYPISO8601.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -230,7 +229,6 @@
 			files = (
 				14C4182E1A01919C00636FD6 /* Tests.m in Sources */,
 				447DF91F1AB1C95000EFD1D5 /* NSString+HYPDate.m in Sources */,
-				44950E9A1AB1C9F60034E313 /* NSDate+HYPISO8601.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

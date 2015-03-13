@@ -28,7 +28,7 @@ static const NSUInteger HYPTestLimit = 50;
 
 - (void)testCurrentDateAsDateStringWithFormat
 {
-    for (NSString *dateStringFormat in [RiksmotetTests dateFormats]) {
+    for (NSString *dateStringFormat in [Tests dateFormats]) {
         [self dateStringFromDate:[NSDate date] withFormat:dateStringFormat];
     }
 }
@@ -50,7 +50,7 @@ static const NSUInteger HYPTestLimit = 50;
 - (void)testDateStringFromDateWithFormat
 {
     for (NSDate *date in [self randomDates]) {
-        for (NSString *dateStringFormat in [RiksmotetTests dateFormats]) {
+        for (NSString *dateStringFormat in [Tests dateFormats]) {
             [self dateStringFromDate:date withFormat:dateStringFormat];
         }
     }
@@ -82,7 +82,7 @@ static const NSUInteger HYPTestLimit = 50;
     ISO8601DateFormatter *dateFormatter = [ISO8601DateFormatter new];
 
     for (NSString *dateString in [self randomDateStrings]) {
-        for (NSString *dateStringFormat in [RiksmotetTests dateFormats]) {
+        for (NSString *dateStringFormat in [Tests dateFormats]) {
             [self dateStringFromDate:[dateFormatter dateFromString:dateString]
                           withFormat:dateStringFormat];
         }
@@ -110,7 +110,7 @@ static const NSUInteger HYPTestLimit = 50;
 - (void)testDateRangeStringFromStartDateToEndDateWithFormat
 {
     for (NSInteger i = 0; i < HYPTestLimit; i++) {
-        for (NSString *dateStringFormat in [RiksmotetTests dateFormats]) {
+        for (NSString *dateStringFormat in [Tests dateFormats]) {
             [self dateRangeStringFromStartDate:[self randomDate]
                                        endDate:[self randomDate]
                                     withFormat:dateStringFormat];
@@ -151,7 +151,7 @@ static const NSUInteger HYPTestLimit = 50;
 - (void)testDateRangeStringFromStartDateStringToEndDateStringWithFormat
 {
     for (NSInteger i = 0; i < HYPTestLimit; i++) {
-        for (NSString *dateStringFormat in [RiksmotetTests dateFormats]) {
+        for (NSString *dateStringFormat in [Tests dateFormats]) {
             [self dateRangeStringFromStartDateString:[self randomDateString]
                                        endDateString:[self randomDateString]
                                           withFormat:dateStringFormat];
