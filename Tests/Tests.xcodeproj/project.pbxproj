@@ -28,8 +28,6 @@
 		27E8D83D9E643898269EF134 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		447DF91D1AB1C95000EFD1D5 /* NSString+HYPDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HYPDate.h"; sourceTree = "<group>"; };
 		447DF91E1AB1C95000EFD1D5 /* NSString+HYPDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HYPDate.m"; sourceTree = "<group>"; };
-		44950E981AB1C9F60034E313 /* NSDate+HYPISO8601.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+HYPISO8601.h"; sourceTree = "<group>"; };
-		44950E991AB1C9F60034E313 /* NSDate+HYPISO8601.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+HYPISO8601.m"; sourceTree = "<group>"; };
 		7ED2BE1B53A0711A9F16DC84 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,8 +83,6 @@
 		14C418371A01974300636FD6 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				44950E981AB1C9F60034E313 /* NSDate+HYPISO8601.h */,
-				44950E991AB1C9F60034E313 /* NSDate+HYPISO8601.m */,
 				447DF91D1AB1C95000EFD1D5 /* NSString+HYPDate.h */,
 				447DF91E1AB1C95000EFD1D5 /* NSString+HYPDate.m */,
 			);

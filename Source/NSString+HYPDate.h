@@ -14,9 +14,9 @@ static NSString * const HYPTimeRangeFormat = @"%@ - %@";
 + (NSString *)hyp_dateStringFromDate:(NSDate *)date;
 + (NSString *)hyp_dateStringFromDate:(NSDate *)date withFormat:(NSString *)dateStringFormat;
 
-+ (NSString *)hyp_timeStringFromDateString:(NSString *)dateString;
-+ (NSString *)hyp_dateStringFromDateString:(NSString *)dateString;
-+ (NSString *)hyp_dateStringFromDateString:(NSString *)dateString withFormat:(NSString *)dateStringFormat;
+- (NSString *)hyp_timeString;
+- (NSString *)hyp_dateString;
+- (NSString *)hyp_dateStringWithFormat:(NSString *)dateStringFormat;
 
 + (NSString *)hyp_timeRangeStringFromStartDate:(NSDate *)startDate endDate:(NSDate *)endDate;
 + (NSString *)hyp_dateRangeStringFromStartDate:(NSDate *)startDate endDate:(NSDate *)endDate;
