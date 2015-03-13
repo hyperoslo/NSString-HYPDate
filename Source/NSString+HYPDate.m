@@ -37,19 +37,21 @@
     return [dateFormatter stringFromDate:date];
 }
 
-+ (NSString *)hyp_timeStringFromDateString:(NSString *)dateString
+- (NSString *)hyp_timeString
 {
-    return [self hyp_dateStringFromDateString:dateString withFormat:HYPDefaultTimeFormat];
+    return [self hyp_dateStringWithFormat:HYPDefaultTimeFormat];
 }
 
-+ (NSString *)hyp_dateStringFromDateString:(NSString *)dateString
+- (NSString *)hyp_dateString
 {
-    return [self hyp_dateStringFromDateString:dateString withFormat:HYPDefaultDateFormat];
+    return [self hyp_dateStringWithFormat:HYPDefaultDateFormat];
 }
 
-+ (NSString *)hyp_dateStringFromDateString:(NSString *)dateString withFormat:(NSString *)dateStringFormat
+- (NSString *)hyp_dateStringWithFormat:(NSString *)dateStringFormat
 {
-    return [self hyp_dateStringFromDate:[self fromISO8601StringToDate:dateString] withFormat:dateStringFormat];
+    NSDate *test = [NSString fromISO8601StringToDate:self];
+    NSString *testStr = [NSString hyp_dateStringFromDate:test withFormat:dateStringFormat];
+    return testStr;
 }
 
 + (NSString *)hyp_timeRangeStringFromStartDate:(NSDate *)startDate endDate:(NSDate *)endDate
