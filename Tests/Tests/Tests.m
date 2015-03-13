@@ -20,22 +20,22 @@ static const NSUInteger HYPTestLimit = 50;
 {
     NSString *currentTimeString = [self dateStringFromDate:[NSDate date] withFormat:HYPDefaultTimeFormat];
 
-    XCTAssertEqualObjects([NSString hyp_currentDateAsTimeString], currentTimeString);
+    XCTAssertEqualObjects([NSString hyp_timeString], currentTimeString);
 }
 
 - (void)testCurrentDateAsDateString
 {
     NSString *currentDateString = [self dateStringFromDate:[NSDate date] withFormat:HYPDefaultDateFormat];
 
-    XCTAssertEqualObjects([NSString hyp_currentDateAsDateString], currentDateString);
+    XCTAssertEqualObjects([NSString hyp_dateString], currentDateString);
 }
 
 - (void)testCurrentDateAsDateStringWithFormat
 {
-    for (NSString *dateStringFormat in [Tests dateFormats]) {
-        NSString *formattedCurrentDateString = [self dateStringFromDate:[NSDate date] withFormat:dateStringFormat];
+    for (NSString *format in [Tests dateFormats]) {
+        NSString *formattedCurrentDateString = [self dateStringFromDate:[NSDate date] withFormat:format];
 
-        XCTAssertEqualObjects([NSString hyp_currentDateAsDateStringWithFormat:dateStringFormat], formattedCurrentDateString);
+        XCTAssertEqualObjects([NSString hyp_dateStringWithFormat:format], formattedCurrentDateString);
     }
 }
 
@@ -60,10 +60,10 @@ static const NSUInteger HYPTestLimit = 50;
 - (void)testDateStringFromDateWithFormat
 {
     for (NSDate *date in [self randomDates]) {
-        for (NSString *dateStringFormat in [Tests dateFormats]) {
-            NSString *formattedDateString = [self dateStringFromDate:date withFormat:dateStringFormat];
+        for (NSString *format in [Tests dateFormats]) {
+            NSString *formattedDateString = [self dateStringFromDate:date withFormat:format];
 
-            XCTAssertEqualObjects([NSString hyp_dateStringFromDate:date withFormat:dateStringFormat], formattedDateString);
+            XCTAssertEqualObjects([NSString hyp_dateStringFromDate:date withFormat:format], formattedDateString);
         }
     }
 }
@@ -91,10 +91,10 @@ static const NSUInteger HYPTestLimit = 50;
     ISO8601DateFormatter *dateFormatter = [ISO8601DateFormatter new];
 
     for (NSString *dateString in [self randomDateStrings]) {
-        for (NSString *dateStringFormat in [Tests dateFormats]) {
-            NSString *formattedDateString = [self dateStringFromDate:[dateFormatter dateFromString:dateString] withFormat:dateStringFormat];
+        for (NSString *format in [Tests dateFormats]) {
+            NSString *formattedDateString = [self dateStringFromDate:[dateFormatter dateFromString:dateString] withFormat:format];
 
-            XCTAssertEqualObjects([dateString hyp_dateStringWithFormat:dateStringFormat], formattedDateString);
+            XCTAssertEqualObjects([dateString hyp_dateStringWithFormat:format], formattedDateString);
         }
     }
 }
@@ -130,15 +130,15 @@ static const NSUInteger HYPTestLimit = 50;
 - (void)testDateRangeStringFromStartDateToEndDateWithFormat
 {
     for (NSInteger i = 0; i < HYPTestLimit; i++) {
-        for (NSString *dateStringFormat in [Tests dateFormats]) {
+        for (NSString *format in [Tests dateFormats]) {
             NSDate *startDate = [self randomDate];
             NSDate *endDate = [self randomDate];
 
             NSString *formattedDateRange = [self dateRangeStringFromStartDate:startDate
                                                                       endDate:endDate
-                                                                   withFormat:dateStringFormat];
+                                                                   withFormat:format];
 
-            XCTAssertEqualObjects([NSString hyp_dateRangeStringFromStartDate:startDate endDate:endDate withFormat:dateStringFormat], formattedDateRange);
+            XCTAssertEqualObjects([NSString hyp_dateRangeStringFromStartDate:startDate endDate:endDate withFormat:format], formattedDateRange);
         }
     }
 }
@@ -174,44 +174,44 @@ static const NSUInteger HYPTestLimit = 50;
 - (void)testDateRangeStringFromStartDateStringToEndDateStringWithFormat
 {
     for (NSInteger i = 0; i < HYPTestLimit; i++) {
-        for (NSString *dateStringFormat in [Tests dateFormats]) {
+        for (NSString *format in [Tests dateFormats]) {
             NSString *startDateString = [self randomDateString];
             NSString *endDateString = [self randomDateString];
 
             NSString *formattedDateRangeString = [self dateRangeStringFromStartDateString:startDateString
                                                                             endDateString:endDateString
-                                                                               withFormat:dateStringFormat];
+                                                                               withFormat:format];
 
-           XCTAssertEqualObjects([NSString hyp_dateRangeStringFromStartDateString:startDateString endDateString:endDateString withFormat:dateStringFormat], formattedDateRangeString);
+           XCTAssertEqualObjects([NSString hyp_dateRangeStringFromStartDateString:startDateString endDateString:endDateString withFormat:format], formattedDateRangeString);
         }
     }
 }
 
 #pragma mark - Test helpers
 
-- (NSString *)testDateStringFromDateString:(NSString *)dateString withFormat:(NSString *)dateStringFormat
+- (NSString *)testDateStringFromDateString:(NSString *)dateString withFormat:(NSString *)format
 {
     NSDate *date = [[ISO8601DateFormatter new] dateFromString:dateString];
 
-    return [self dateStringFromDate:date withFormat:dateStringFormat];
+    return [self dateStringFromDate:date withFormat:format];
 }
 
-- (NSString *)dateStringFromDate:(NSDate *)date withFormat:(NSString *)dateStringFormat;
+- (NSString *)dateStringFromDate:(NSDate *)date withFormat:(NSString *)format;
 {
     NSDateFormatter *dateFormatter = [NSDateFormatter new];
-    dateFormatter.dateFormat = dateStringFormat;
+    dateFormatter.dateFormat = format;
 
     return [dateFormatter stringFromDate:date];
 }
 
-- (NSString *)dateRangeStringFromStartDate:(NSDate *)startDate endDate:(NSDate *)endDate withFormat:(NSString *)dateStringFormat
+- (NSString *)dateRangeStringFromStartDate:(NSDate *)startDate endDate:(NSDate *)endDate withFormat:(NSString *)format
 {
     return [NSString stringWithFormat:HYPTimeRangeFormat,
-            [NSString hyp_dateStringFromDate:startDate withFormat:dateStringFormat],
-            [NSString hyp_dateStringFromDate:endDate withFormat:dateStringFormat]];
+            [NSString hyp_dateStringFromDate:startDate withFormat:format],
+            [NSString hyp_dateStringFromDate:endDate withFormat:format]];
 }
 
-- (NSString *)dateRangeStringFromStartDateString:(NSString *)startDateString endDateString:(NSString *)endDateString withFormat:(NSString *)dateStringFormat
+- (NSString *)dateRangeStringFromStartDateString:(NSString *)startDateString endDateString:(NSString *)endDateString withFormat:(NSString *)format
 {
     ISO8601DateFormatter *dateFormatter = [ISO8601DateFormatter new];
 
@@ -220,7 +220,7 @@ static const NSUInteger HYPTestLimit = 50;
 
     return [self dateRangeStringFromStartDate:startDate
                                       endDate:endDate
-                                   withFormat:dateStringFormat];
+                                   withFormat:format];
 }
 
 #pragma mark - Test data generation

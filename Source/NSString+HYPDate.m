@@ -4,19 +4,19 @@
 
 @implementation NSString (HYPDate)
 
-+ (NSString *)hyp_currentDateAsTimeString
++ (NSString *)hyp_timeString
 {
     return [self hyp_dateStringFromDate:[NSDate date] withFormat:HYPDefaultTimeFormat];
 }
 
-+ (NSString *)hyp_currentDateAsDateString
++ (NSString *)hyp_dateString
 {
     return [self hyp_dateStringFromDate:[NSDate date] withFormat:HYPDefaultDateFormat];
 }
 
-+ (NSString *)hyp_currentDateAsDateStringWithFormat:(NSString *)dateStringFormat
++ (NSString *)hyp_dateStringWithFormat:(NSString *)format
 {
-    return [self hyp_dateStringFromDate:[NSDate date] withFormat:dateStringFormat];
+    return [self hyp_dateStringFromDate:[NSDate date] withFormat:format];
 }
 
 + (NSString *)hyp_timeStringFromDate:(NSDate *)date
@@ -29,10 +29,10 @@
     return [self hyp_dateStringFromDate:date withFormat:HYPDefaultDateFormat];
 }
 
-+ (NSString *)hyp_dateStringFromDate:(NSDate *)date withFormat:(NSString *)dateStringFormat
++ (NSString *)hyp_dateStringFromDate:(NSDate *)date withFormat:(NSString *)format
 {
     NSDateFormatter *dateFormatter = [NSDateFormatter new];
-    [dateFormatter setDateFormat:dateStringFormat];
+    [dateFormatter setDateFormat:format];
 
     return [dateFormatter stringFromDate:date];
 }
@@ -47,10 +47,10 @@
     return [self hyp_dateStringWithFormat:HYPDefaultDateFormat];
 }
 
-- (NSString *)hyp_dateStringWithFormat:(NSString *)dateStringFormat
+- (NSString *)hyp_dateStringWithFormat:(NSString *)format
 {
     NSDate *test = [NSString fromISO8601StringToDate:self];
-    NSString *testStr = [NSString hyp_dateStringFromDate:test withFormat:dateStringFormat];
+    NSString *testStr = [NSString hyp_dateStringFromDate:test withFormat:format];
     return testStr;
 }
 
@@ -64,11 +64,11 @@
     return [self hyp_dateRangeStringFromStartDate:startDate endDate:endDate withFormat:HYPDefaultDateFormat];
 }
 
-+ (NSString *)hyp_dateRangeStringFromStartDate:(NSDate *)startDate endDate:(NSDate *)endDate withFormat:(NSString *)dateStringFormat
++ (NSString *)hyp_dateRangeStringFromStartDate:(NSDate *)startDate endDate:(NSDate *)endDate withFormat:(NSString *)format
 {
     return [NSString stringWithFormat:HYPTimeRangeFormat,
-            [self hyp_dateStringFromDate:startDate withFormat:dateStringFormat],
-            [self hyp_dateStringFromDate:endDate withFormat:dateStringFormat]];
+            [self hyp_dateStringFromDate:startDate withFormat:format],
+            [self hyp_dateStringFromDate:endDate withFormat:format]];
 }
 
 + (NSString *)hyp_timeRangeStringFromStartDateString:(NSString *)startDateString endDateString:(NSString *)endDateString
@@ -85,11 +85,11 @@
                                          withFormat:HYPDefaultDateFormat];
 }
 
-+ (NSString *)hyp_dateRangeStringFromStartDateString:(NSString *)startDateString endDateString:(NSString *)endDateString withFormat:(NSString *)dateStringFormat
++ (NSString *)hyp_dateRangeStringFromStartDateString:(NSString *)startDateString endDateString:(NSString *)endDateString withFormat:(NSString *)format
 {
     return [self hyp_dateRangeStringFromStartDate:[self fromISO8601StringToDate:startDateString]
                                           endDate:[self fromISO8601StringToDate:endDateString]
-                                   withFormat:dateStringFormat];
+                                   withFormat:format];
 }
 
 #pragma mark - Private helper
