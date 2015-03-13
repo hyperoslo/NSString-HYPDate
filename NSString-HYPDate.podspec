@@ -1,6 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = "NSString-HYPDate"
   s.version          = "0.1"
+  s.summary          = "Output dates or date strings (ISO8601 format) in default string format using only a single line of code."
   s.homepage         = "https://github.com/hyperoslo/NSString-HYPDate"
   s.license          = 'MIT'
   s.author           = { "Hyper AS" => "teknologi@hyper.no" }
@@ -12,6 +13,5 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Source/**/*'
 
-#  s.frameworks = 'UIKit', 'MapKit'
-#  s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'ISO8601DateFormatter', '~> 0.7'
 end
