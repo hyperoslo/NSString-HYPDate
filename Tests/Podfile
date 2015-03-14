@@ -3,3 +3,4 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '7.0'
 
 pod 'ISO8601DateFormatter', '~> 0.7'
+pod 'NSDate-HYPString', git: 'https://github.com/hyperoslo/NSDate-HYPString.git'

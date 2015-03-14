@@ -1,10 +1,22 @@
 PODS:
   - ISO8601DateFormatter (0.7)
+  - NSDate-HYPString (0.1)
 
 DEPENDENCIES:
   - ISO8601DateFormatter (~> 0.7)
+  - NSDate-HYPString (from `https://github.com/hyperoslo/NSDate-HYPString.git`)
+
+EXTERNAL SOURCES:
+  NSDate-HYPString:
+    :git: https://github.com/hyperoslo/NSDate-HYPString.git
+
+CHECKOUT OPTIONS:
+  NSDate-HYPString:
+    :commit: 826e2e80cfc7d1300d65c8bf5488967acc20f887
+    :git: https://github.com/hyperoslo/NSDate-HYPString.git
 
 SPEC CHECKSUMS:
   ISO8601DateFormatter: 59731cd880cf87e71b4fa95f0d6b713dcbc4cbce
+  NSDate-HYPString: 0a69259dfa4cf85989be74b5504a6a06f829a79e
 
 COCOAPODS: 0.36.0
