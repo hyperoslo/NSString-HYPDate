@@ -8,47 +8,54 @@
 
 @implementation Tests
 
-+ (void)testTimeString
+- (void)testTimeStringClassMethod
+{
+    NSString *timeString = [NSString hyp_timeString];
+    XCTAssertNotNil(timeString);
+    XCTAssertEqual(timeString.length, 5);
+}
+
+- (void)testDateStringClassMethod
+{
+    NSString *dateString = [NSString hyp_dateString];
+    XCTAssertNotNil(dateString);
+    XCTAssertEqual(dateString.length, 10);
+}
+
+- (void)testDateStringWithFormatClassMethod
+{
+    NSString *dateString = [NSString hyp_dateStringWithFormat:@"dd.MM.yyyy"];
+    XCTAssertNotNil(dateString);
+    XCTAssertEqual(dateString.length, 10);
+}
+
+- (void)testTimeStringInstanceMethod
 {
 
 }
 
-+ (void)testDateString
+- (void)testDateStringInstanceMethod
 {
 
 }
 
-+ (void)testDateStringWithFormat
+- (void)testDateStringWithFormatInstanceMethod
 {
 
 }
 
-- (void)testTimeString
+
+- (void)testTimeRangeStringToEndDateString
 {
 
 }
 
-- (void)testDateString
+- (void)testDateRangeStringToEndDateString
 {
 
 }
 
-- (void)testDateStringWithFormat
-{
-
-}
-
-+ (void)hyp_timeRangeStringToEndDateString
-{
-
-}
-
-+ (void)hyp_dateRangeStringToEndDateString
-{
-
-}
-
-+ (void)hyp_dateRangeStringToEndDateStringWithFormat
+- (void)testDateRangeStringToEndDateStringWithFormat
 {
 
 }
