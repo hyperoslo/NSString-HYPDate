@@ -14,14 +14,11 @@
 
 - (NSString *)hyp_dateStringWithFormat:(NSString *)format;
 
-+ (NSString *)hyp_timeRangeStringFromStartDateString:(NSString *)startDateString
-                                       endDateString:(NSString *)endDateString;
+- (NSString *)hyp_timeRangeStringToEndDateString:(NSString *)endDateString;
 
-+ (NSString *)hyp_dateRangeStringFromStartDateString:(NSString *)startDateString
-                                       endDateString:(NSString *)endDateString;
+- (NSString *)hyp_dateRangeStringToEndDateString:(NSString *)endDateString;
 
-+ (NSString *)hyp_dateRangeStringFromStartDateString:(NSString *)startDateString
-                                       endDateString:(NSString *)endDateString
-                                          withFormat:(NSString *)format;
+- (NSString *)hyp_dateRangeStringToEndDateString:(NSString *)endDateString
+                                      withFormat:(NSString *)format;
 
 @end
