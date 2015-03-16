@@ -1,6 +1,6 @@
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/ISO8601DateFormatter" "${PODS_ROOT}/Headers/Public/NSDate-HYPString"
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/ISO8601DateFormatter" -isystem "${PODS_ROOT}/Headers/Public/NSDate-HYPString"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"Pods-ISO8601DateFormatter" -l"Pods-NSDate-HYPString" -framework "Foundation"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/ISO8601DateFormatter" "${PODS_ROOT}/Headers/Public/NSDate-HYPConvenience" "${PODS_ROOT}/Headers/Public/NSDate-HYPString"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/ISO8601DateFormatter" -isystem "${PODS_ROOT}/Headers/Public/NSDate-HYPConvenience" -isystem "${PODS_ROOT}/Headers/Public/NSDate-HYPString"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"Pods-ISO8601DateFormatter" -l"Pods-NSDate-HYPConvenience" -l"Pods-NSDate-HYPString" -framework "Foundation"
 OTHER_LIBTOOLFLAGS = $(OTHER_LDFLAGS)
 PODS_ROOT = ${SRCROOT}/Pods
