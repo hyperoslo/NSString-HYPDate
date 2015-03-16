@@ -11,5 +11,5 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.source_files = 'Source/**/*'
   s.dependency 'ISO8601DateFormatter', '~> 0.7'
-  s.dependency 'NSDate-HYPString', '~> 0.1.1'
+  s.dependency 'NSDate-HYPString', '~> 0.2'
 end
