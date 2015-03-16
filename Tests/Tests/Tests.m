@@ -2,8 +2,6 @@
 
 #import "NSString+HYPDate.h"
 
-#import "NSDate+HYPConvenience.h"
-
 @interface Tests : XCTestCase
 
 @end
