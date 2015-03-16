@@ -1,16 +1,13 @@
 PODS:
   - ISO8601DateFormatter (0.7)
-  - NSDate-HYPConvenience (0.1.1)
   - NSDate-HYPString (0.1.1)
 
 DEPENDENCIES:
   - ISO8601DateFormatter (~> 0.7)
-  - NSDate-HYPConvenience
   - NSDate-HYPString
 
 SPEC CHECKSUMS:
   ISO8601DateFormatter: 59731cd880cf87e71b4fa95f0d6b713dcbc4cbce
-  NSDate-HYPConvenience: 0613737572a6fc47d2516c97e9218d6626191e72
   NSDate-HYPString: d4d9da3ffde4d6160989c27d92f90581f016395b
 
 COCOAPODS: 0.36.0

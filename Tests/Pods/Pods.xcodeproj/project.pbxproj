@@ -7,309 +7,232 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0526DFE348F30819CE157744 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E321C71C0483BC7CFAFE7E /* Pods-dummy.m */; };
-		0C030C2983A7D1D1161151EE /* Pods-ISO8601DateFormatter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F74889B049AD1E3C33740E0 /* Pods-ISO8601DateFormatter-dummy.m */; };
-		12CCDBE9B30E3F0EC4E169D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C2E5BD8080FEBCE8E8C7AC5 /* Foundation.framework */; };
-		3F8C58561299488F53E51C1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C2E5BD8080FEBCE8E8C7AC5 /* Foundation.framework */; };
-		62F8F08B42FF0DF402C34630 /* NSDate+HYPString.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BFF1BB7F26F7B9EE372A048 /* NSDate+HYPString.m */; };
-		70E902BBE8DF96130CDE7FF0 /* Pods-NSDate-HYPConvenience-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D47E1F58F5017560D394B84C /* Pods-NSDate-HYPConvenience-dummy.m */; };
-		826A43A4F47515410AECD187 /* Pods-NSDate-HYPString-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05AD687C780CABCE5D253E24 /* Pods-NSDate-HYPString-dummy.m */; };
-		AA0176CB8D6685268DC9BA1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C2E5BD8080FEBCE8E8C7AC5 /* Foundation.framework */; };
-		C71A76D661115BB7762468A0 /* ISO8601DateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBED05C3220C26DC579F18A /* ISO8601DateFormatter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		C721F7A4A06B0D4D5543AE06 /* NSDate+HYPString.h in Headers */ = {isa = PBXBuildFile; fileRef = EA696C6ECBDD3DB8AEF778D2 /* NSDate+HYPString.h */; };
-		E03646A39E57943885F9AD4F /* NSDate+HYPConvenience.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B12CE1550A93D7975ADDE9 /* NSDate+HYPConvenience.m */; };
-		E6565FCE6F3DA56953D007CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C2E5BD8080FEBCE8E8C7AC5 /* Foundation.framework */; };
-		EA0CAF4F3408357062360BFB /* NSDate+HYPConvenience.h in Headers */ = {isa = PBXBuildFile; fileRef = EF4A0038DB12A69DB28E3154 /* NSDate+HYPConvenience.h */; };
-		FF581299B1AA14B1F0B593C3 /* ISO8601DateFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 559D1711B8AE9FBC506489C8 /* ISO8601DateFormatter.h */; };
+		0EB66034B12694886AD9A4C9 /* ISO8601DateFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CA9EAFD94A8C9B2B8EF5414 /* ISO8601DateFormatter.h */; };
+		3984A7E7C23EEE850A4E9262 /* ISO8601DateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A6086DD5B9F2FC1FFB2469 /* ISO8601DateFormatter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3EA7E712FD8408F2476CB30B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E2D7EE34B76F0E11BC0CE39 /* Foundation.framework */; };
+		52DBD32E7B152594D73FE297 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2265527A21663015142BDA4 /* Pods-dummy.m */; };
+		65B7E51CCC89CAB0F14CEE3A /* Pods-ISO8601DateFormatter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B47DAB1D52A222EDF21987 /* Pods-ISO8601DateFormatter-dummy.m */; };
+		98C95B143C9476C0262FBA56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E2D7EE34B76F0E11BC0CE39 /* Foundation.framework */; };
+		E25FBAFF5C942C336831EDAE /* NSDate+HYPString.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B674C74D3794BAD63F5B755 /* NSDate+HYPString.m */; };
+		E2BA1DE0CF92D8E60808CA22 /* NSDate+HYPString.h in Headers */ = {isa = PBXBuildFile; fileRef = 87CC542FF9B32EDC43402C01 /* NSDate+HYPString.h */; };
+		F19A4F2BC2A55087A2588357 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E2D7EE34B76F0E11BC0CE39 /* Foundation.framework */; };
+		F38576414347D5810F78F83D /* Pods-NSDate-HYPString-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 881D76DD81A23DBA76DF74CA /* Pods-NSDate-HYPString-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		01935F1D639367C2454B8EF2 /* PBXContainerItemProxy */ = {
+		28E0EA96BB4F896B15D2BD8D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E3F161D47FF5D182AACF5476 /* Project object */;
+			containerPortal = 693E6FEA065094F22044EF04 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 42E209101986661682C1ECEF;
+			remoteGlobalIDString = 184994B8DEAF1CD4FF94AED2;
 			remoteInfo = "Pods-ISO8601DateFormatter";
 		};
-		65B8E4ACCB0E550BFF6A4C54 /* PBXContainerItemProxy */ = {
+		2A7C5DDE6B12C907A6BDF515 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E3F161D47FF5D182AACF5476 /* Project object */;
+			containerPortal = 693E6FEA065094F22044EF04 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 54A4E6AD3E2BA5966BFBA4A4;
+			remoteGlobalIDString = A94F732455F8B1E6E14099E7;
 			remoteInfo = "Pods-NSDate-HYPString";
-		};
-		ECAAC1083B967BC3D2A40229 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E3F161D47FF5D182AACF5476 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B05BC437BE25C34D9441CAF6;
-			remoteInfo = "Pods-NSDate-HYPConvenience";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05AD687C780CABCE5D253E24 /* Pods-NSDate-HYPString-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NSDate-HYPString-dummy.m"; sourceTree = "<group>"; };
-		13A6B2EF89BE9E1E75ADE5CC /* Pods-NSDate-HYPString-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSDate-HYPString-Private.xcconfig"; sourceTree = "<group>"; };
-		171A13C0F1D9833F86AAF401 /* Pods-NSDate-HYPConvenience.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSDate-HYPConvenience.xcconfig"; sourceTree = "<group>"; };
-		1E21404DBDCA530DA8202A7A /* Pods-ISO8601DateFormatter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ISO8601DateFormatter.xcconfig"; sourceTree = "<group>"; };
-		2D13D86DB6AECCCCAFDB120E /* Pods-ISO8601DateFormatter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ISO8601DateFormatter-prefix.pch"; sourceTree = "<group>"; };
-		3BFF1BB7F26F7B9EE372A048 /* NSDate+HYPString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+HYPString.m"; path = "Source/NSDate+HYPString.m"; sourceTree = "<group>"; };
-		496EC372B36505E95D8232D4 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		559D1711B8AE9FBC506489C8 /* ISO8601DateFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ISO8601DateFormatter.h; sourceTree = "<group>"; };
-		587534CE61A94F64BB5C4E9A /* Pods-NSDate-HYPConvenience-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NSDate-HYPConvenience-prefix.pch"; sourceTree = "<group>"; };
-		5A18530FD4A48616C37A0DE4 /* Pods-NSDate-HYPConvenience-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSDate-HYPConvenience-Private.xcconfig"; sourceTree = "<group>"; };
-		6303D2B437A780C689FC3A5D /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
-		6B8F6A7671262C34F0E3D1D2 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
-		79E321C71C0483BC7CFAFE7E /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
-		8C2E5BD8080FEBCE8E8C7AC5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		8F74889B049AD1E3C33740E0 /* Pods-ISO8601DateFormatter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ISO8601DateFormatter-dummy.m"; sourceTree = "<group>"; };
-		9F2400E8BEC319D9A8227EE3 /* Pods-ISO8601DateFormatter-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ISO8601DateFormatter-Private.xcconfig"; sourceTree = "<group>"; };
-		A717F9C1414B375FAE2C3396 /* libPods-NSDate-HYPString.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NSDate-HYPString.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AD4C451F4A170C161FA77483 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
-		B5D4D88149A85568631BEC7F /* Pods-NSDate-HYPString-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NSDate-HYPString-prefix.pch"; sourceTree = "<group>"; };
-		CC3DE5D1CCB8B2CE09B3254B /* libPods-ISO8601DateFormatter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ISO8601DateFormatter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CFBED05C3220C26DC579F18A /* ISO8601DateFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ISO8601DateFormatter.m; sourceTree = "<group>"; };
-		D47E1F58F5017560D394B84C /* Pods-NSDate-HYPConvenience-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NSDate-HYPConvenience-dummy.m"; sourceTree = "<group>"; };
-		D80DF7735D4662A3FAD23381 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
-		DDEFC2E9AD7F248182BB7088 /* Pods-NSDate-HYPString.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSDate-HYPString.xcconfig"; sourceTree = "<group>"; };
-		EA696C6ECBDD3DB8AEF778D2 /* NSDate+HYPString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+HYPString.h"; path = "Source/NSDate+HYPString.h"; sourceTree = "<group>"; };
-		EB2E08CDDC74B85B325B5AE7 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EF4A0038DB12A69DB28E3154 /* NSDate+HYPConvenience.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+HYPConvenience.h"; path = "Source/NSDate+HYPConvenience.h"; sourceTree = "<group>"; };
-		F4B12CE1550A93D7975ADDE9 /* NSDate+HYPConvenience.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+HYPConvenience.m"; path = "Source/NSDate+HYPConvenience.m"; sourceTree = "<group>"; };
-		F861E8A6B289C2B9CCFE4D58 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8C411F9B99AEBDC90D24367 /* libPods-NSDate-HYPConvenience.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NSDate-HYPConvenience.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB6FC174031C92DE70305089 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		13A6086DD5B9F2FC1FFB2469 /* ISO8601DateFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ISO8601DateFormatter.m; sourceTree = "<group>"; };
+		1B51ABF288B3CA12FC9157A9 /* Pods-ISO8601DateFormatter-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ISO8601DateFormatter-Private.xcconfig"; sourceTree = "<group>"; };
+		2D8DB44440B9A04236EC1374 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CD4EA4974C8B355590B2E69 /* Pods-ISO8601DateFormatter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ISO8601DateFormatter-prefix.pch"; sourceTree = "<group>"; };
+		4034D9337748738BEA0E80E7 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5B674C74D3794BAD63F5B755 /* NSDate+HYPString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+HYPString.m"; path = "Source/NSDate+HYPString.m"; sourceTree = "<group>"; };
+		61BAB8DE9BD4B6F3F747ECD6 /* libPods-NSDate-HYPString.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NSDate-HYPString.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		698413C2AA2782C7DB39B415 /* Pods-NSDate-HYPString.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSDate-HYPString.xcconfig"; sourceTree = "<group>"; };
+		7E2D7EE34B76F0E11BC0CE39 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		87CC542FF9B32EDC43402C01 /* NSDate+HYPString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+HYPString.h"; path = "Source/NSDate+HYPString.h"; sourceTree = "<group>"; };
+		881D76DD81A23DBA76DF74CA /* Pods-NSDate-HYPString-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NSDate-HYPString-dummy.m"; sourceTree = "<group>"; };
+		941C2A73B4021D439844080D /* libPods-ISO8601DateFormatter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ISO8601DateFormatter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99BAA4083F159FE032A4FD2F /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9CA9EAFD94A8C9B2B8EF5414 /* ISO8601DateFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ISO8601DateFormatter.h; sourceTree = "<group>"; };
+		A2BB66B0A988AAAB2A328D22 /* Pods-NSDate-HYPString-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSDate-HYPString-Private.xcconfig"; sourceTree = "<group>"; };
+		ACC34B93FB1AFA80A3401EF8 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		B19BB7A3C0C2E4D4A6258271 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		B834CCCB99FEF13ADE7D5716 /* Pods-ISO8601DateFormatter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ISO8601DateFormatter.xcconfig"; sourceTree = "<group>"; };
+		C46C2B3FBA53C047422F82CB /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		C825B0700B4D60860B760721 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		D2265527A21663015142BDA4 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		E37D7B35114EB8342D056CD5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		F4B47DAB1D52A222EDF21987 /* Pods-ISO8601DateFormatter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ISO8601DateFormatter-dummy.m"; sourceTree = "<group>"; };
+		F8CBC34302147E552DB01E39 /* Pods-NSDate-HYPString-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NSDate-HYPString-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		16DC6998FAC4E12B74611C14 /* Frameworks */ = {
+		2AF3AB2ABFEBF14EA0D5B0FE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6565FCE6F3DA56953D007CC /* Foundation.framework in Frameworks */,
+				3EA7E712FD8408F2476CB30B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8134E65B130501F2A7FCBE39 /* Frameworks */ = {
+		A91A5FDD9F579ADE0442BC1C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA0176CB8D6685268DC9BA1F /* Foundation.framework in Frameworks */,
+				F19A4F2BC2A55087A2588357 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		882698D8D12EC37C0C5D1373 /* Frameworks */ = {
+		F20126F6E60BF7C632213CD4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F8C58561299488F53E51C1B /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A8625CFF413EE6582BFB4E19 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				12CCDBE9B30E3F0EC4E169D9 /* Foundation.framework in Frameworks */,
+				98C95B143C9476C0262FBA56 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		02DBF5B3EA142559D041B17C /* Support Files */ = {
+		1DEC6BB1ABEAD2075CDD170C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DDEFC2E9AD7F248182BB7088 /* Pods-NSDate-HYPString.xcconfig */,
-				13A6B2EF89BE9E1E75ADE5CC /* Pods-NSDate-HYPString-Private.xcconfig */,
-				05AD687C780CABCE5D253E24 /* Pods-NSDate-HYPString-dummy.m */,
-				B5D4D88149A85568631BEC7F /* Pods-NSDate-HYPString-prefix.pch */,
+				2D8DB44440B9A04236EC1374 /* libPods.a */,
+				941C2A73B4021D439844080D /* libPods-ISO8601DateFormatter.a */,
+				61BAB8DE9BD4B6F3F747ECD6 /* libPods-NSDate-HYPString.a */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/Pods-NSDate-HYPString";
+			name = Products;
 			sourceTree = "<group>";
 		};
-		0D81F2FD4CCEE1906B362173 /* Targets Support Files */ = {
+		2AB0FC5C2374EC18D82F5817 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DE15FD21F5D94DB498DC0EEF /* Pods */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		12AB8BC297919EC3172DDD12 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				8C2E5BD8080FEBCE8E8C7AC5 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		4BAAFB154C53C0D330D8DC88 = {
-			isa = PBXGroup;
-			children = (
-				496EC372B36505E95D8232D4 /* Podfile */,
-				5DB00481EC35C92FAC5C1A3A /* Frameworks */,
-				C5C2C5189D38ED9A48D84D94 /* Pods */,
-				E1196171864877F44C0390E8 /* Products */,
-				0D81F2FD4CCEE1906B362173 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		55A76CFF5294C72CA1A7000C /* ISO8601DateFormatter */ = {
-			isa = PBXGroup;
-			children = (
-				559D1711B8AE9FBC506489C8 /* ISO8601DateFormatter.h */,
-				CFBED05C3220C26DC579F18A /* ISO8601DateFormatter.m */,
-				7215AFD5AB145046749876D6 /* Support Files */,
-			);
-			path = ISO8601DateFormatter;
-			sourceTree = "<group>";
-		};
-		5DB00481EC35C92FAC5C1A3A /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				12AB8BC297919EC3172DDD12 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		7215AFD5AB145046749876D6 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1E21404DBDCA530DA8202A7A /* Pods-ISO8601DateFormatter.xcconfig */,
-				9F2400E8BEC319D9A8227EE3 /* Pods-ISO8601DateFormatter-Private.xcconfig */,
-				8F74889B049AD1E3C33740E0 /* Pods-ISO8601DateFormatter-dummy.m */,
-				2D13D86DB6AECCCCAFDB120E /* Pods-ISO8601DateFormatter-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Pods-ISO8601DateFormatter";
-			sourceTree = "<group>";
-		};
-		845EDD5D229B38DB98BB9903 /* NSDate-HYPConvenience */ = {
-			isa = PBXGroup;
-			children = (
-				EF4A0038DB12A69DB28E3154 /* NSDate+HYPConvenience.h */,
-				F4B12CE1550A93D7975ADDE9 /* NSDate+HYPConvenience.m */,
-				B6D976917779F0C9CCEA420B /* Support Files */,
-			);
-			path = "NSDate-HYPConvenience";
-			sourceTree = "<group>";
-		};
-		8BBCA9B892F8DBE8B3481F5C /* NSDate-HYPString */ = {
-			isa = PBXGroup;
-			children = (
-				EA696C6ECBDD3DB8AEF778D2 /* NSDate+HYPString.h */,
-				3BFF1BB7F26F7B9EE372A048 /* NSDate+HYPString.m */,
-				02DBF5B3EA142559D041B17C /* Support Files */,
-			);
-			path = "NSDate-HYPString";
-			sourceTree = "<group>";
-		};
-		B6D976917779F0C9CCEA420B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				171A13C0F1D9833F86AAF401 /* Pods-NSDate-HYPConvenience.xcconfig */,
-				5A18530FD4A48616C37A0DE4 /* Pods-NSDate-HYPConvenience-Private.xcconfig */,
-				D47E1F58F5017560D394B84C /* Pods-NSDate-HYPConvenience-dummy.m */,
-				587534CE61A94F64BB5C4E9A /* Pods-NSDate-HYPConvenience-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Pods-NSDate-HYPConvenience";
-			sourceTree = "<group>";
-		};
-		C5C2C5189D38ED9A48D84D94 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				55A76CFF5294C72CA1A7000C /* ISO8601DateFormatter */,
-				845EDD5D229B38DB98BB9903 /* NSDate-HYPConvenience */,
-				8BBCA9B892F8DBE8B3481F5C /* NSDate-HYPString */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		DE15FD21F5D94DB498DC0EEF /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				EB2E08CDDC74B85B325B5AE7 /* Pods-acknowledgements.markdown */,
-				FB6FC174031C92DE70305089 /* Pods-acknowledgements.plist */,
-				79E321C71C0483BC7CFAFE7E /* Pods-dummy.m */,
-				6B8F6A7671262C34F0E3D1D2 /* Pods-environment.h */,
-				6303D2B437A780C689FC3A5D /* Pods-resources.sh */,
-				D80DF7735D4662A3FAD23381 /* Pods.debug.xcconfig */,
-				AD4C451F4A170C161FA77483 /* Pods.release.xcconfig */,
+				99BAA4083F159FE032A4FD2F /* Pods-acknowledgements.markdown */,
+				C46C2B3FBA53C047422F82CB /* Pods-acknowledgements.plist */,
+				D2265527A21663015142BDA4 /* Pods-dummy.m */,
+				ACC34B93FB1AFA80A3401EF8 /* Pods-environment.h */,
+				B19BB7A3C0C2E4D4A6258271 /* Pods-resources.sh */,
+				E37D7B35114EB8342D056CD5 /* Pods.debug.xcconfig */,
+				C825B0700B4D60860B760721 /* Pods.release.xcconfig */,
 			);
 			name = Pods;
 			path = "Target Support Files/Pods";
 			sourceTree = "<group>";
 		};
-		E1196171864877F44C0390E8 /* Products */ = {
+		3305DBECDB36327E70848589 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F861E8A6B289C2B9CCFE4D58 /* libPods.a */,
-				CC3DE5D1CCB8B2CE09B3254B /* libPods-ISO8601DateFormatter.a */,
-				F8C411F9B99AEBDC90D24367 /* libPods-NSDate-HYPConvenience.a */,
-				A717F9C1414B375FAE2C3396 /* libPods-NSDate-HYPString.a */,
+				7B794D9394FFCCCA3075D001 /* ISO8601DateFormatter */,
+				7F5B64CF443AEEAA900E3DF4 /* NSDate-HYPString */,
 			);
-			name = Products;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3439E29BB35261A8622BF841 = {
+			isa = PBXGroup;
+			children = (
+				4034D9337748738BEA0E80E7 /* Podfile */,
+				93FCD680B09B09DAF3D521A6 /* Frameworks */,
+				3305DBECDB36327E70848589 /* Pods */,
+				1DEC6BB1ABEAD2075CDD170C /* Products */,
+				348B3C797B4F85E7404EED95 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		348B3C797B4F85E7404EED95 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2AB0FC5C2374EC18D82F5817 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7B794D9394FFCCCA3075D001 /* ISO8601DateFormatter */ = {
+			isa = PBXGroup;
+			children = (
+				9CA9EAFD94A8C9B2B8EF5414 /* ISO8601DateFormatter.h */,
+				13A6086DD5B9F2FC1FFB2469 /* ISO8601DateFormatter.m */,
+				A8641B2E42A4E63722068F83 /* Support Files */,
+			);
+			path = ISO8601DateFormatter;
+			sourceTree = "<group>";
+		};
+		7F5B64CF443AEEAA900E3DF4 /* NSDate-HYPString */ = {
+			isa = PBXGroup;
+			children = (
+				87CC542FF9B32EDC43402C01 /* NSDate+HYPString.h */,
+				5B674C74D3794BAD63F5B755 /* NSDate+HYPString.m */,
+				97FED03B4B710144F1C2429F /* Support Files */,
+			);
+			path = "NSDate-HYPString";
+			sourceTree = "<group>";
+		};
+		93FCD680B09B09DAF3D521A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				991B832255AF548865A3F914 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		97FED03B4B710144F1C2429F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				698413C2AA2782C7DB39B415 /* Pods-NSDate-HYPString.xcconfig */,
+				A2BB66B0A988AAAB2A328D22 /* Pods-NSDate-HYPString-Private.xcconfig */,
+				881D76DD81A23DBA76DF74CA /* Pods-NSDate-HYPString-dummy.m */,
+				F8CBC34302147E552DB01E39 /* Pods-NSDate-HYPString-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-NSDate-HYPString";
+			sourceTree = "<group>";
+		};
+		991B832255AF548865A3F914 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7E2D7EE34B76F0E11BC0CE39 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A8641B2E42A4E63722068F83 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B834CCCB99FEF13ADE7D5716 /* Pods-ISO8601DateFormatter.xcconfig */,
+				1B51ABF288B3CA12FC9157A9 /* Pods-ISO8601DateFormatter-Private.xcconfig */,
+				F4B47DAB1D52A222EDF21987 /* Pods-ISO8601DateFormatter-dummy.m */,
+				3CD4EA4974C8B355590B2E69 /* Pods-ISO8601DateFormatter-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-ISO8601DateFormatter";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		31B9BC43069BBFF75C873A96 /* Headers */ = {
+		304A787D1B3FB84E3FC4A2FC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA0CAF4F3408357062360BFB /* NSDate+HYPConvenience.h in Headers */,
+				E2BA1DE0CF92D8E60808CA22 /* NSDate+HYPString.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7D2AA040A265AAD60EC41D37 /* Headers */ = {
+		4899E0A547AFC861A609250D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF581299B1AA14B1F0B593C3 /* ISO8601DateFormatter.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BA0832B622B2F1392AAF4708 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C721F7A4A06B0D4D5543AE06 /* NSDate+HYPString.h in Headers */,
+				0EB66034B12694886AD9A4C9 /* ISO8601DateFormatter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		366DA4E5FFFB3F34FC07AE8F /* Pods */ = {
+		184994B8DEAF1CD4FF94AED2 /* Pods-ISO8601DateFormatter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6D08247F09EE615BCA27D872 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildConfigurationList = E5D1373AC3EA418D30FF7307 /* Build configuration list for PBXNativeTarget "Pods-ISO8601DateFormatter" */;
 			buildPhases = (
-				CC41D298F4C0462040921854 /* Sources */,
-				8134E65B130501F2A7FCBE39 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AEA6DC7AC87D067BE01DCFA0 /* PBXTargetDependency */,
-				EAAB565B7640F9DF6CD88525 /* PBXTargetDependency */,
-				243041951B547DA62B9E5BF6 /* PBXTargetDependency */,
-			);
-			name = Pods;
-			productName = Pods;
-			productReference = F861E8A6B289C2B9CCFE4D58 /* libPods.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		42E209101986661682C1ECEF /* Pods-ISO8601DateFormatter */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2FA6F9E11BCAD8FF97C58EE8 /* Build configuration list for PBXNativeTarget "Pods-ISO8601DateFormatter" */;
-			buildPhases = (
-				9153DA9A2442FFD3E768C26D /* Sources */,
-				A8625CFF413EE6582BFB4E19 /* Frameworks */,
-				7D2AA040A265AAD60EC41D37 /* Headers */,
+				44D01148375C3AED718AA44E /* Sources */,
+				A91A5FDD9F579ADE0442BC1C /* Frameworks */,
+				4899E0A547AFC861A609250D /* Headers */,
 			);
 			buildRules = (
 			);
@@ -317,16 +240,34 @@
 			);
 			name = "Pods-ISO8601DateFormatter";
 			productName = "Pods-ISO8601DateFormatter";
-			productReference = CC3DE5D1CCB8B2CE09B3254B /* libPods-ISO8601DateFormatter.a */;
+			productReference = 941C2A73B4021D439844080D /* libPods-ISO8601DateFormatter.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		54A4E6AD3E2BA5966BFBA4A4 /* Pods-NSDate-HYPString */ = {
+		95AABB89F8E4E1E1C180D70D /* Pods */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FDA30FB9386CCB0A9735D2D8 /* Build configuration list for PBXNativeTarget "Pods-NSDate-HYPString" */;
+			buildConfigurationList = A37FF802D9DB93F4F84A47F6 /* Build configuration list for PBXNativeTarget "Pods" */;
 			buildPhases = (
-				598AE9093333425A1868B9A2 /* Sources */,
-				882698D8D12EC37C0C5D1373 /* Frameworks */,
-				BA0832B622B2F1392AAF4708 /* Headers */,
+				D466813CF712109555E75E9B /* Sources */,
+				2AF3AB2ABFEBF14EA0D5B0FE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7828DE1AF6F2CB521681958 /* PBXTargetDependency */,
+				E1F3823E26836958CA6A2509 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 2D8DB44440B9A04236EC1374 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A94F732455F8B1E6E14099E7 /* Pods-NSDate-HYPString */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9239C2211F45281F110203EC /* Build configuration list for PBXNativeTarget "Pods-NSDate-HYPString" */;
+			buildPhases = (
+				3B97B16B5D3E3A36B7DCB1BA /* Sources */,
+				F20126F6E60BF7C632213CD4 /* Frameworks */,
+				304A787D1B3FB84E3FC4A2FC /* Headers */,
 			);
 			buildRules = (
 			);
@@ -334,115 +275,114 @@
 			);
 			name = "Pods-NSDate-HYPString";
 			productName = "Pods-NSDate-HYPString";
-			productReference = A717F9C1414B375FAE2C3396 /* libPods-NSDate-HYPString.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		B05BC437BE25C34D9441CAF6 /* Pods-NSDate-HYPConvenience */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2FA78CB3EE845FCE1DEDB624 /* Build configuration list for PBXNativeTarget "Pods-NSDate-HYPConvenience" */;
-			buildPhases = (
-				F7732A7F724DB598DD608F8C /* Sources */,
-				16DC6998FAC4E12B74611C14 /* Frameworks */,
-				31B9BC43069BBFF75C873A96 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-NSDate-HYPConvenience";
-			productName = "Pods-NSDate-HYPConvenience";
-			productReference = F8C411F9B99AEBDC90D24367 /* libPods-NSDate-HYPConvenience.a */;
+			productReference = 61BAB8DE9BD4B6F3F747ECD6 /* libPods-NSDate-HYPString.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E3F161D47FF5D182AACF5476 /* Project object */ = {
+		693E6FEA065094F22044EF04 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
 			};
-			buildConfigurationList = 7F3573D99B3793AAF19C487F /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 70B3FCD0AF7725DBCA34EE9A /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 4BAAFB154C53C0D330D8DC88;
-			productRefGroup = E1196171864877F44C0390E8 /* Products */;
+			mainGroup = 3439E29BB35261A8622BF841;
+			productRefGroup = 1DEC6BB1ABEAD2075CDD170C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				366DA4E5FFFB3F34FC07AE8F /* Pods */,
-				42E209101986661682C1ECEF /* Pods-ISO8601DateFormatter */,
-				B05BC437BE25C34D9441CAF6 /* Pods-NSDate-HYPConvenience */,
-				54A4E6AD3E2BA5966BFBA4A4 /* Pods-NSDate-HYPString */,
+				95AABB89F8E4E1E1C180D70D /* Pods */,
+				184994B8DEAF1CD4FF94AED2 /* Pods-ISO8601DateFormatter */,
+				A94F732455F8B1E6E14099E7 /* Pods-NSDate-HYPString */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		598AE9093333425A1868B9A2 /* Sources */ = {
+		3B97B16B5D3E3A36B7DCB1BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62F8F08B42FF0DF402C34630 /* NSDate+HYPString.m in Sources */,
-				826A43A4F47515410AECD187 /* Pods-NSDate-HYPString-dummy.m in Sources */,
+				E25FBAFF5C942C336831EDAE /* NSDate+HYPString.m in Sources */,
+				F38576414347D5810F78F83D /* Pods-NSDate-HYPString-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9153DA9A2442FFD3E768C26D /* Sources */ = {
+		44D01148375C3AED718AA44E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C71A76D661115BB7762468A0 /* ISO8601DateFormatter.m in Sources */,
-				0C030C2983A7D1D1161151EE /* Pods-ISO8601DateFormatter-dummy.m in Sources */,
+				3984A7E7C23EEE850A4E9262 /* ISO8601DateFormatter.m in Sources */,
+				65B7E51CCC89CAB0F14CEE3A /* Pods-ISO8601DateFormatter-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CC41D298F4C0462040921854 /* Sources */ = {
+		D466813CF712109555E75E9B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0526DFE348F30819CE157744 /* Pods-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F7732A7F724DB598DD608F8C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E03646A39E57943885F9AD4F /* NSDate+HYPConvenience.m in Sources */,
-				70E902BBE8DF96130CDE7FF0 /* Pods-NSDate-HYPConvenience-dummy.m in Sources */,
+				52DBD32E7B152594D73FE297 /* Pods-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		243041951B547DA62B9E5BF6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-NSDate-HYPString";
-			target = 54A4E6AD3E2BA5966BFBA4A4 /* Pods-NSDate-HYPString */;
-			targetProxy = 65B8E4ACCB0E550BFF6A4C54 /* PBXContainerItemProxy */;
-		};
-		AEA6DC7AC87D067BE01DCFA0 /* PBXTargetDependency */ = {
+		D7828DE1AF6F2CB521681958 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-ISO8601DateFormatter";
-			target = 42E209101986661682C1ECEF /* Pods-ISO8601DateFormatter */;
-			targetProxy = 01935F1D639367C2454B8EF2 /* PBXContainerItemProxy */;
+			target = 184994B8DEAF1CD4FF94AED2 /* Pods-ISO8601DateFormatter */;
+			targetProxy = 28E0EA96BB4F896B15D2BD8D /* PBXContainerItemProxy */;
 		};
-		EAAB565B7640F9DF6CD88525 /* PBXTargetDependency */ = {
+		E1F3823E26836958CA6A2509 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-NSDate-HYPConvenience";
-			target = B05BC437BE25C34D9441CAF6 /* Pods-NSDate-HYPConvenience */;
-			targetProxy = ECAAC1083B967BC3D2A40229 /* PBXContainerItemProxy */;
+			name = "Pods-NSDate-HYPString";
+			target = A94F732455F8B1E6E14099E7 /* Pods-NSDate-HYPString */;
+			targetProxy = 2A7C5DDE6B12C907A6BDF515 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		4E59546B1284F78C1164E724 /* Release */ = {
+		143AAD739104AF3BC952195A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E37D7B35114EB8342D056CD5 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		150BAB4144B4DCC16FC95191 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C825B0700B4D60860B760721 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		28AB8E894D6239EF6E5965FA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -476,25 +416,25 @@
 			};
 			name = Release;
 		};
-		73783A3E65A94DFAE2458BD4 /* Debug */ = {
+		5623D3C479398269EE505295 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A18530FD4A48616C37A0DE4 /* Pods-NSDate-HYPConvenience-Private.xcconfig */;
+			baseConfigurationReference = 1B51ABF288B3CA12FC9157A9 /* Pods-ISO8601DateFormatter-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-NSDate-HYPConvenience/Pods-NSDate-HYPConvenience-prefix.pch";
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ISO8601DateFormatter/Pods-ISO8601DateFormatter-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
-		8732797C173F5522E64ABC8E /* Release */ = {
+		6CECD865114BBBD5553197FF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 13A6B2EF89BE9E1E75ADE5CC /* Pods-NSDate-HYPString-Private.xcconfig */;
+			baseConfigurationReference = A2BB66B0A988AAAB2A328D22 /* Pods-NSDate-HYPString-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/Pods-NSDate-HYPString/Pods-NSDate-HYPString-prefix.pch";
@@ -508,25 +448,9 @@
 			};
 			name = Release;
 		};
-		87BF90BC777FE6E0049B8F3B /* Release */ = {
+		EC3858A5868440891C799E5B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A18530FD4A48616C37A0DE4 /* Pods-NSDate-HYPConvenience-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-NSDate-HYPConvenience/Pods-NSDate-HYPConvenience-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		BBE6C3F7A4BDBC486051A0B0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F2400E8BEC319D9A8227EE3 /* Pods-ISO8601DateFormatter-Private.xcconfig */;
+			baseConfigurationReference = 1B51ABF288B3CA12FC9157A9 /* Pods-ISO8601DateFormatter-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/Pods-ISO8601DateFormatter/Pods-ISO8601DateFormatter-prefix.pch";
@@ -540,7 +464,23 @@
 			};
 			name = Debug;
 		};
-		BD21F8CAF10A3AD0E32FD037 /* Debug */ = {
+		EDA49F5CE1FD310035F2B9A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2BB66B0A988AAAB2A328D22 /* Pods-NSDate-HYPString-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-NSDate-HYPString/Pods-NSDate-HYPString-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F0E484C67B1F0AA658D461D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -579,119 +519,46 @@
 			};
 			name = Debug;
 		};
-		C57F68C806D2569850D06291 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F2400E8BEC319D9A8227EE3 /* Pods-ISO8601DateFormatter-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-ISO8601DateFormatter/Pods-ISO8601DateFormatter-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		E2B7317DC42B9C91A9151090 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D80DF7735D4662A3FAD23381 /* Pods.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		E7A2CBBDFA1EFDCEF132ECEE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AD4C451F4A170C161FA77483 /* Pods.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		F33197C969FE644251629C54 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 13A6B2EF89BE9E1E75ADE5CC /* Pods-NSDate-HYPString-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-NSDate-HYPString/Pods-NSDate-HYPString-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2FA6F9E11BCAD8FF97C58EE8 /* Build configuration list for PBXNativeTarget "Pods-ISO8601DateFormatter" */ = {
+		70B3FCD0AF7725DBCA34EE9A /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BBE6C3F7A4BDBC486051A0B0 /* Debug */,
-				C57F68C806D2569850D06291 /* Release */,
+				F0E484C67B1F0AA658D461D5 /* Debug */,
+				28AB8E894D6239EF6E5965FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2FA78CB3EE845FCE1DEDB624 /* Build configuration list for PBXNativeTarget "Pods-NSDate-HYPConvenience" */ = {
+		9239C2211F45281F110203EC /* Build configuration list for PBXNativeTarget "Pods-NSDate-HYPString" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				73783A3E65A94DFAE2458BD4 /* Debug */,
-				87BF90BC777FE6E0049B8F3B /* Release */,
+				EDA49F5CE1FD310035F2B9A5 /* Debug */,
+				6CECD865114BBBD5553197FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6D08247F09EE615BCA27D872 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+		A37FF802D9DB93F4F84A47F6 /* Build configuration list for PBXNativeTarget "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E2B7317DC42B9C91A9151090 /* Debug */,
-				E7A2CBBDFA1EFDCEF132ECEE /* Release */,
+				143AAD739104AF3BC952195A /* Debug */,
+				150BAB4144B4DCC16FC95191 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7F3573D99B3793AAF19C487F /* Build configuration list for PBXProject "Pods" */ = {
+		E5D1373AC3EA418D30FF7307 /* Build configuration list for PBXNativeTarget "Pods-ISO8601DateFormatter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BD21F8CAF10A3AD0E32FD037 /* Debug */,
-				4E59546B1284F78C1164E724 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FDA30FB9386CCB0A9735D2D8 /* Build configuration list for PBXNativeTarget "Pods-NSDate-HYPString" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F33197C969FE644251629C54 /* Debug */,
-				8732797C173F5522E64ABC8E /* Release */,
+				EC3858A5868440891C799E5B /* Debug */,
+				5623D3C479398269EE505295 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E3F161D47FF5D182AACF5476 /* Project object */;
+	rootObject = 693E6FEA065094F22044EF04 /* Project object */;
 }
