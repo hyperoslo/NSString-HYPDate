@@ -31,7 +31,7 @@
 
 - (void)testTimeStringInstanceMethod
 {
-    XCTAssertEqualObjects(@"09:35", [@"2015-03-12T08:35:56.804Z" hyp_timeString]);
+    XCTAssertEqualObjects(@"08:35", [@"2015-03-12T08:35:56.804Z" hyp_timeString]);
 }
 
 - (void)testDateStringInstanceMethod
@@ -47,9 +47,9 @@
 - (void)testTimeRangeStringToEndDateString
 {
     NSString *startDateString = @"2000-01-01T10:10:00.002Z";
-    NSString *endDateString = @"2000-01-02T10:10:00.002Z";
+    NSString *endDateString = @"2000-01-02T11:10:00.002Z";
 
-    XCTAssertEqualObjects(@"11:10 - 11:10", [startDateString hyp_timeRangeStringToEndDateString:endDateString]);
+    XCTAssertEqualObjects(@"10:10 - 11:10", [startDateString hyp_timeRangeStringToEndDateString:endDateString]);
 }
 
 - (void)testDateRangeStringToEndDateString
